@@ -21,7 +21,7 @@ services:
                     continueOnError: false
                 posix:
                     shell: sh
-                    run:  cd ../frontend;npm install;npm run build
+                    run: ../../scripts/prebuild.sh
                     interactive: false
                     continueOnError: false
 hooks:
